@@ -28,6 +28,8 @@ requirements:
     - pymatgen
     - python >=3.6
     - importlib-metadata
+    - plotly
+    - kaleido
 test:
   imports:
     - xtal2png
