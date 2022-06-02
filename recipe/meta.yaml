@@ -1,5 +1,5 @@
 {% set name = "xtal2png" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xtal2png-{{ version }}.tar.gz
-  sha256: 811ba71839d651d6a399e63352e7aad2cc3ee861b7606de30a9c8e1114952c73
+  sha256: ca29d698a4ec2a27b82ad39fe5d192f12d2bd65e0f3aa4c600bb2b39455e19d7
 
 build:
   number: 0
@@ -28,6 +28,8 @@ requirements:
     - pymatgen
     - python >=3.6
     - importlib-metadata
+    - plotly
+    - python-kaleido
 test:
   imports:
     - xtal2png
