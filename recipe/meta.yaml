@@ -15,7 +15,7 @@ build:
   entry_points:
     - xtal2png = xtal2png.core:run
   script: {{ PYTHON }} -m pip install . -vv
-  noarch: python
+#   noarch: python
 
 requirements:
   host:
