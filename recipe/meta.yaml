@@ -21,16 +21,16 @@ requirements:
   host:
     - pip
     - setuptools-scm
-    - python >=3.6
+    - python
   run:
     - numpy
     - pillow
     - pymatgen
-    - python >=3.6
+    - python
     - importlib-metadata
     - plotly
     - python-kaleido
-    - m3gnet # [not win]
+    - m3gnet  # [not win]
 test:
   imports:
     - xtal2png
