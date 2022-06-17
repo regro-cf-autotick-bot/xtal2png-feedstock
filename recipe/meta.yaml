@@ -30,6 +30,7 @@ requirements:
     - importlib-metadata
     - plotly
     - python-kaleido
+    - m3gnet # [not win]
 test:
   imports:
     - xtal2png
