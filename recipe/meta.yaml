@@ -1,5 +1,5 @@
 {% set name = "xtal2png" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xtal2png-{{ version }}.tar.gz
-  sha256: 917e4e31d39c835f5275530ad6639103f7b8d70a266dcf3bc855f7bc7c5fd666
+  sha256: 507f6404d6b2b68d561c0deedf8a6266abef1fcc43a11d544225bc602466b55f
 
 build:
   number: 0
