@@ -35,7 +35,7 @@ test:
     - xtal2png
     - xtal2png.utils
   commands:
-    - pip check
+#     - pip check
     - xtal2png --help
   requires:
     - pip
